@@ -5,3 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(NumberGuessGame main.cpp
         test.cpp)
+
+target_link_libraries(NumberGuessGame stdc++fs)
